@@ -1,26 +1,28 @@
-# Dice Game
+# Movie Library App
 
-A small Flutter game that rolls two dice and shows whether their total is a win.
+A Flutter app for browsing a small collection of movies. Search by title or genre, then switch between list and grid layouts.
 
 ## Features
 
-- Roll two dice and see their total.
-- Win with a total of 10 or more; otherwise, lose.
-- Reset both dice to 1.
-- Happy and sad illustrations show the result.
+- Search movies by title or genre.
+- Browse the collection in list or grid view.
+- View each movie's rating, release year, and poster.
+- Tap the ticket deal on any card to update the offer across the collection.
 
 ## Technologies
 
 - Flutter and Dart
-- Material icons and local PNG assets
+- Material icons and local poster images
 
 ## Project structure
 
 ```text
-assets/       Happy and sad result images
-lib/main.dart App and game screen
-lib/dice.dart Dice face widget
-pubspec.yaml  Flutter package and asset configuration
+lib/main.dart       App entry point and theme
+lib/home_page.dart  Search, view toggle, and movie list
+lib/movie_card.dart Movie card widget
+lib/movie.dart      Movie model and sample data
+assets/posters/     Local movie poster images
+pubspec.yaml        Flutter package and asset configuration
 ```
 
 ## Run the app
