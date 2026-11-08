@@ -1,3 +1,8 @@
+
+# ==========================================
+# Flutter / Dart
+# ==========================================
+
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
@@ -5,8 +10,88 @@
 .pub-cache/
 .pub/
 build/
-coverage/
-ios/Flutter/.last_build_id
-*.iml
+
+# Generated Flutter files
+**/generated_plugin_registrant.dart
+**/generated_plugin_registrant.cc
+**/generated_plugin_registrant.h
+**/generated_plugins.cmake
+
+# ==========================================
+# IDEs and editors
+# ==========================================
+
 .idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Android
+# ==========================================
+
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/captures/
+*.jks
+*.keystore
+
+# ==========================================
+# iOS / macOS
+# ==========================================
+
+ios/Flutter/.last_build_id
+ios/Flutter/Generated.xcconfig
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+macos/Flutter/GeneratedPluginRegistrant.swift
+
+**/Pods/
+**/.symlinks/
+**/DerivedData/
+*.xcuserstate
+xcuserdata/
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.perspectivev3
+
+# ==========================================
+# Windows / Linux
+# ==========================================
+
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+
+# ==========================================
+# Environment variables and secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# ==========================================
+# Logs and temporary files
+# ==========================================
+
+*.log
+*.tmp
+*.temp
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Testing / coverage
+# ==========================================
+
+coverage/
